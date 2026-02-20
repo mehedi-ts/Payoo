@@ -21,5 +21,5 @@ document.getElementById("login-btn").addEventListener("click", function () {
 
   alert("login succeeded...");
   inputEmpty();
-  window.location.assign("https://mehedi-ts.github.io/Payoo/");
+  window.location.replace("../home.html");
 });
