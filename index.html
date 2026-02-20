@@ -26,6 +26,50 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <script src="./script/script.js"></script>
+    <main
+      class="max-w-[450px] h-[90vh] bg-[#F4F7F6] mx-auto flex flex-col gap-15 items-center justify-center"
+    >
+      <div class="logo w-11/12 flex items-center justify-center">
+        <img src="./assets/Logo-full.png" alt="" />
+      </div>
+      <div class="from w-11/12 mx-auto">
+        <div
+          class="card bg-[#FFFFFF] w-11/12 mx-auto shrink-0 shadow rounded-[24px]"
+        >
+          <div class="card-body">
+            <fieldset class="fieldset">
+              <label class="label font-medium text-base text-neutral"
+                >Number</label
+              >
+              <input
+                type="text"
+                maxlength="11"
+                id="number"
+                class="input px-5 py-4 text-base font-light rounded-full"
+                placeholder="Enter Your 11 digit mobile Number"
+              />
+              <label class="label font-medium text-base text-neutral"
+                >Pin</label
+              >
+              <input
+                type="password"
+                maxlength="4"
+                id="pin"
+                class="input px-5 py-4 text-base font-light rounded-full"
+                placeholder="Enter Your 4 Degit Pin"
+              />
+
+              <button
+                class="btn btn-primary mt-4 font-semibold text-xl rounded-full px-5 py-3.5"
+                id="login-btn"
+              >
+                Login
+              </button>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script/login.js"></script>
   </body>
 </html>
