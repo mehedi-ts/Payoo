@@ -21,5 +21,5 @@ document.getElementById("login-btn").addEventListener("click", function () {
 
   alert("login succeeded...");
   inputEmpty();
-  window.location.assign("../home.html");
+  window.location.assign("home.html");
 });
